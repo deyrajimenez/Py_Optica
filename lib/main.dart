@@ -82,7 +82,7 @@ class Inicio extends StatelessWidget {
                 Column(
                   children: <Widget>[
                     Padding(
-                      padding: EdgeInsets.all(20),
+                      padding: EdgeInsets.all(10),
                       child: RaisedButton(
                         color: Colors.pink[100],
                         shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
@@ -104,8 +104,7 @@ class Inicio extends StatelessWidget {
                     ) //Padding
                   ],
                 ), //Fin columna interna
-              ],
-                  Column(
+                Column(
                   children: <Widget>[
                     Padding(
                       padding: EdgeInsets.all(10),
@@ -126,6 +125,7 @@ class Inicio extends StatelessWidget {
                     )
                   ],
                 ),
+              ],
             ),
           ],
         ),
