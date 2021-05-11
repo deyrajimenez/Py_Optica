@@ -94,7 +94,7 @@ class Inicio extends StatelessWidget {
                           height: 100,
                           child: Center(
                             child: Text(
-                              "INICIO",
+                              "EMPRESA",
                               textAlign: TextAlign.center,
                               style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
                             ),
@@ -120,6 +120,56 @@ class Inicio extends StatelessWidget {
                           child: Center(
                             child: Text(
                               "INICIO",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
+                            ),
+                          ),
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+                Column(
+                  children: <Widget>[
+                    Padding(
+                      padding: EdgeInsets.all(10),
+                      child: RaisedButton(
+                        color: Colors.pink[100],
+                        shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/producto");
+                        },
+                        child: SizedBox(
+                          width: 100,
+                          height: 100,
+                          child: Center(
+                            child: Text(
+                              "PRODUCTOS",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
+                            ),
+                          ),
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+                Column(
+                  children: <Widget>[
+                    Padding(
+                      padding: EdgeInsets.all(10),
+                      child: RaisedButton(
+                        color: Colors.pink[100],
+                        shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/contacto");
+                        },
+                        child: SizedBox(
+                          width: 100,
+                          height: 100,
+                          child: Center(
+                            child: Text(
+                              "CONTACTOS",
                               textAlign: TextAlign.center,
                               style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
                             ),
