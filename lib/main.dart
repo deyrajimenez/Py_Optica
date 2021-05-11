@@ -8,7 +8,7 @@ class MiOptica extends StatelessWidget {
     return MaterialApp(
         title: 'Optica',
         theme: ThemeData(
-          primarySwatch: Colors.pink[200],
+          primarySwatch: Colors.pink[50],
         ),
 
         //ruta de ventana
