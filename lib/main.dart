@@ -82,7 +82,7 @@ class Inicio extends StatelessWidget {
                 Column(
                   children: <Widget>[
                     Padding(
-                      padding: EdgeInsets.all(60),
+                      padding: EdgeInsets.all(20),
                       child: RaisedButton(
                         color: Colors.pink[100],
                         shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
