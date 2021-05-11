@@ -77,7 +77,7 @@ class Inicio extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Row(
-              mainAxisAligment: MainAxisAligment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Column(
                   children: <Widget>[
