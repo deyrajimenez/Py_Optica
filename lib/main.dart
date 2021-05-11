@@ -74,6 +74,40 @@ class Inicio extends StatelessWidget {
           color: Colors.pinkAccent,
           image: DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/deyrajimenez/MisImagenes25/main/lensabl-0GfPlommtxM-unsplash.jpg"), alignment: Alignment.topCenter),
         ),
+        child: Column(
+          children: <Widget>[
+            Row(
+              mainAxisAligment: MainAxisAligment.center,
+              children: <Widget>[
+                Column(
+                  children: <Widget>[
+                    Padding(
+                      padding: EdgeInsets.all(10),
+                      child: RaisedButton(
+                        color: Colors.pink[100],
+                        shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/inicio");
+                        },
+                        child: SizedBox(
+                          width: 100,
+                          height: 100,
+                          child: Center(
+                            child: Text(
+                              "Inicio",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
+                            ),
+                          ), //Center
+                        ), //Dimension
+                      ),
+                    ) //Padding
+                  ],
+                ), //Fin columna interna
+              ],
+            ),
+          ],
+        ),
       ), //Fin de Container
     );
   }
