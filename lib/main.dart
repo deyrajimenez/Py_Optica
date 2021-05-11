@@ -94,7 +94,7 @@ class Inicio extends StatelessWidget {
                           height: 100,
                           child: Center(
                             child: Text(
-                              "EMPRESA",
+                              "INICIO",
                               textAlign: TextAlign.center,
                               style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
                             ),
@@ -119,7 +119,7 @@ class Inicio extends StatelessWidget {
                           height: 100,
                           child: Center(
                             child: Text(
-                              "INICIO",
+                              "EMPRESA",
                               textAlign: TextAlign.center,
                               style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
                             ),
