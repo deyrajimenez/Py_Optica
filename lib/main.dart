@@ -69,7 +69,7 @@ class Inicio extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       body: Container(
-        padding: EdgeInsets.only(top: 130, bottom: 10, right: 10, left: 10),
+        padding: EdgeInsets.only(top: 180, bottom: 10, right: 10, left: 10),
         decoration: BoxDecoration(
           color: Colors.pinkAccent,
           image: DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/deyrajimenez/MisImagenes25/main/lensabl-0GfPlommtxM-unsplash.jpg"), alignment: Alignment.topCenter),
