@@ -129,6 +129,11 @@ class Inicio extends StatelessWidget {
                     )
                   ],
                 ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
                 Column(
                   children: <Widget>[
                     Padding(
@@ -148,12 +153,12 @@ class Inicio extends StatelessWidget {
                               textAlign: TextAlign.center,
                               style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
                             ),
-                          ),
-                        ),
+                          ), //Center
+                        ), //Dimension
                       ),
-                    )
+                    ) //Padding
                   ],
-                ),
+                ), //Fin columna interna
                 Column(
                   children: <Widget>[
                     Padding(
@@ -169,7 +174,7 @@ class Inicio extends StatelessWidget {
                           height: 100,
                           child: Center(
                             child: Text(
-                              "CONTACTOS",
+                              "CONTACTO",
                               textAlign: TextAlign.center,
                               style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
                             ),
